@@ -1,0 +1,537 @@
+body{
+    font-size: 0.7em;
+    font-family: MS , sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+#header-top{
+    background: #f5eae0;
+    padding: 0.5em 2em;
+    background-image: url(../images/banner-1.png) no repeat center center fixed;
+    color: rgb(117, 114, 114);
+    padding-bottom: 1px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.dropdown-menu a{
+    padding-left: 50px;
+}
+.dong1{
+    padding-left: 180px;
+}
+.col-md-3{
+    padding-top: 2px;
+}
+.col-md-3 a{
+    text-decoration: none;
+    color: rgb(117, 114, 114);
+ 
+}
+.col-md-3 i{
+    margin-left: 10px;
+}
+.col-md-4 {
+   padding-top: 10px;
+    text-align: center;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 15px;
+    height: 15px;
+}
+span{
+    color: rgb(231, 12, 12);
+}
+.col-md-2{
+    padding-top: 10px;
+}
+.col-md-2 a{
+    color: rgb(117, 114, 114);
+}
+
+
+/* header-content */
+#header-content{
+    padding-top: 5px;
+}
+.navbar-light .navbar-brand {
+    padding-right: 50px;
+    padding-left: 180px;
+    font-size: 1.2em;
+}
+.navbar-light .navbar-brand a{
+  text-decoration: none;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding-top: 15px;
+    color: rgb(26, 25, 25);
+    padding-right: 35px;
+}
+.img-fluid {
+    width: 90px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+.navbar-expand-sm .navbar-collapse {
+    padding-right: 100px;
+}
+.content-icon{
+    padding-left: 100px;
+    margin-right: 40px;
+    text-align: right;
+    float: left;
+    display: flex;
+}
+.icon-act-box{
+    margin-right: 30px;
+}
+.icon-act-box .fa-search{
+    cursor: pointer;
+    color: rgba(26, 24, 24, 0.16);
+    font-size: 20px;
+}
+.icon-act-box .fa-user{
+    cursor: pointer;
+    color: rgba(26, 24, 24, 0.16);
+    font-size: 20px;
+ }
+
+ .icon-act-box .fa-heart{
+    cursor: pointer;
+    color: rgba(26, 24, 24, 0.16);
+    font-size: 20px;
+ }
+
+ .icon-act-box .fa-shopping-cart{
+    cursor: pointer;
+    color: rgba(26, 24, 24, 0.16);
+    font-size: 20px;
+ }
+ 
+.icon-act-box .noti-count{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    background: rgb(233, 107, 107);
+    border-radius: 7px;
+    padding-right: 7px;
+    padding-bottom: 0px;
+    display: inline;
+    color: #fff;
+    line-height: 15px;
+}
+
+.w-cr {
+    cursor: pointer;
+    width: 100%!important;
+    height: 650px;
+}
+
+.carousel-indicators li {
+    cursor: pointer;
+    border-radius: 100%;
+    height: 0px;
+    width: 18px;
+    background: rgb(14, 15, 14);
+}
+
+.carousel-control-prev{
+    cursor: pointer;
+    display: none;
+}
+.carousel-control-next{
+    cursor: pointer;
+    display: none;
+}
+.carousel-item{
+   
+    position: relative;
+}
+.comment{
+    
+    position: absolute;
+    padding-top: 150px;
+    padding-left: 250px;
+  
+}
+.hand-shop{
+   
+    color: rgb(12, 163, 168);
+}
+.button-ex{
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px ;
+    color: blanchedalmond;
+    background: rgb(22, 12, 12);
+    padding: 10px 30px;
+    border-radius: 90px;
+}
+.button-ex:hover{
+    text-decoration: none;
+    color: blanchedalmond;
+    background: rgb(61, 60, 60);
+}
+
+/* Begin  Content-for-index  */
+
+#shopify-section{
+    padding-top: 40px;
+}
+.item
+{
+   
+    padding-top: 80px;
+    background-image: url(../images/banner-1.png);
+    width: 100%;
+    height: 230px;
+    position: relative;
+}
+.mini-text{
+    margin-left: 30px;
+}
+.mini-text h5{
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.mini-text p{
+    color: rgb(94, 89, 89);
+}
+
+.item-dobble
+{
+    overflow: hidden;
+    transition: 0.5s;
+}
+.item-dobble img
+{
+    position: absolute;
+    width: 85%;
+    height: 240px;
+    transition: 0.5s;
+}
+
+.item-dobble:hover img
+{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+.item-dobble .blog-mini
+{
+    text-align: center;
+    margin-left: 30px;
+    padding-top: 50px;
+    position: absolute;
+    color: rgb(92, 91, 91);
+}
+.blog-mini h4{
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+.blog-mini h5{
+   
+    padding-top: 30px;
+}
+.mini {
+    padding-top: 0px;
+    overflow: hidden;
+}
+
+.item-dobble h3{
+    padding-top: 150px;
+}
+
+.mini2
+{
+    margin-top: 20px;
+}
+.item-dobble .des-mini{
+    position: absolute;
+}
+.des-mini h4{
+    letter-spacing: 2px;
+    padding-top: 180px;
+    margin-left: 20px;
+}
+.des-mini p{
+    margin-left: 20px;
+}
+
+.mini-destext img
+{
+    width: 98%;
+    height: 240px;
+}
+
+.mini-destext:hover img{
+    transform: scale(1.3);
+    transition: 0.5s;
+
+}
+
+.mini-destext img{
+    transition: 0.5s;
+    position: relative;
+}
+.item-ideas{
+    position: absolute;
+}
+/* .item-text img
+{
+    transition: 0.5s;
+    position: relative;
+}
+.item-text:hover img
+{
+    transform: scale(1.2);
+    transition: 0.5s;
+} */
+
+
+/* Blog */
+
+.blog-mini i{
+    color: rgb(192, 235, 232) ;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-left: 30px;
+}
+.blog-mini p{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.kalles{
+    font-size: 1.8rem;
+}
+
+.product-gift p{
+    color: rgb(138, 135, 135);
+}
+.product-gift .number-red{
+    color: rgb(231, 8, 8);
+}
+/* Content-menu */
+
+.categories-description{
+    padding-top: 100px;
+    text-align: center;
+}
+.button-collapse{
+    text-align: center;
+   
+  
+}
+.button-collapse a{
+    color: #000;
+    background: #0000;
+    text-decoration: none;
+   
+   
+    border: 1px dashed;
+    border-radius: 90px;
+    padding-left: 20px;
+    
+    padding: 13px 40px 18px 27px; ;
+}
+
+.button-collapse button{
+    border: 1px dashed;
+    border-radius: 90px;
+    color: rgb(143, 136, 136);
+    
+}
+.button-collapse button:hover{
+    
+    background: #ffff;
+    color: #000;
+    
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    padding: 10px 25px 10px 25px ;
+  
+}   
+.img-product1 {
+    cursor: pointer;
+    width: 185px;
+    height: 294px;
+}
+.img-product2 {
+    cursor: pointer;
+    width: 185px;
+    height: 294px;
+}
+
+/* Diaofshop */
+
+.handd-shop{
+    font-weight: bold;
+}
+.commentt p{
+    color: rgb(121, 118, 118);
+}
+.blog-img{
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+}
+.commentt {
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 250px;
+}
+
+
+/* Shop categories */
+
+.categories-shop{
+    padding-top: 50px;
+    text-align: center;
+}
+.img-categories{
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+}
+.giatri{
+    padding-top: 10px;
+    text-align: center;
+}
+.giatr h4{
+
+    font-weight: bold;
+}
+
+/*  */
+#diferenced .container{
+    
+    background: rgb(248, 245, 245);
+}
+
+.the-diferenced{
+    font-size: 1rem;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.super{
+    padding-top: 40px;
+}
+.superb h5{
+    font-weight: bold;
+}
+.superb p{
+    color: rgb(134, 133, 133);
+}
+.frees{
+    padding-top: 40px;
+}
+.free h5{
+    font-weight: bold;
+}
+.free p{
+    color: rgb(134, 133, 133);
+}
+
+/* Blog post */
+.blog-news{
+    padding-top: 50px;
+    text-align: center;
+}
+/*  */
+ 
+.img-blogs img{
+   
+    width: 200px;
+    height: 200px;
+} 
+
+.seend-map{
+    padding-top: 30px;
+  background: #fcf0d8;
+}
+.map p{
+    padding-top: 10px;
+}
+.fa-map-marker-alt{
+   color: rgb(158, 144, 144);
+}
+.fa-facebook-f{
+    cursor: pointer;
+    color: rgb(158, 144, 144);
+}
+.fa-facebook-f:hover{
+    color: rgb(64, 16, 236);
+}
+.fa-twitter{
+    cursor: pointer;
+    color: rgb(158, 144, 144);
+}
+.fa-twitter:hover{
+
+    color: rgb(64, 16, 236);
+}
+
+.fa-instagram{
+    cursor: pointer;
+    color: rgb(158, 144, 144);
+}
+.fa-instagram:hover{
+    color: rgb(247, 47, 47);
+}
+.fa-invision{
+    cursor: pointer;
+    color: rgb(158, 144, 144);
+}
+.fa-invision:hover{
+    color: aqua;
+}
+.fa-pinterest{
+    cursor: pointer;
+    color: rgb(158, 144, 144);
+}
+.fa-pinterest:hover{
+    color: rgb(247, 47, 47);
+}
+.col-email input{
+    padding: 10px 20px 10px 20px;
+    border-radius: 90px;
+}
+
+.content-end {
+   
+    background: #f5eae0;
+}
+
+.content-end .container{
+   padding-top: 20px;
+   height: 50px;
+}
+.px-1 a{
+    text-decoration: none;
+    padding-right: 20px;
+    margin-right: 5px;
+    color: #a09c9c;
+}
+.sub {
+    border-radius: 50px;
+    background: #000;
+    color: rgb(184, 178, 178);
+}
+.img-blogs  p{
+    color: #949292;
+}
+.px-1 a:hover{
+   color: #000;
+}
+.px-1 .stt{
+    margin-right: 50px;
+    color: #a09c9c;
+}
+
+/* ------------ */
